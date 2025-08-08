@@ -1,0 +1,47 @@
+{
+  "name": "Crop",
+  "type": "object",
+  "properties": {
+    "userId": {
+      "type": "number",
+      "description": "Unique identifier for the user who owns the crop"
+    },
+    "id": {
+      "type": "number",
+      "description": "Unique identifier for the crop"
+    },
+    "name": {
+      "type": "string",
+      "description": "Name of the crop (e.g., Tomatoes, Corn, Wheat)"
+    },
+    "type": {
+      "type": "string",
+      "description": "Type of crop (vegetable, grain, fruit, etc.)"
+    },
+    "plantedDate": {
+      "type": "string",
+      "description": "Date when the crop was planted"
+    },
+    "harvestDate": {
+      "type": "string", 
+      "description": "Expected or actual harvest date"
+    },
+    "status": {
+      "type": "string",
+      "description": "Current status: planted, growing, ready, harvested"
+    },
+    "quantity": {
+      "type": "number",
+      "description": "Quantity planted or harvested"
+    },
+    "notes": {
+      "type": "string",
+      "description": "Additional notes about the crop"
+    }
+  },
+  "required": [
+    "name",
+    "type",
+    "status"
+  ]
+}

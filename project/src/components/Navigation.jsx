@@ -16,7 +16,7 @@ function Navigation() {
                 : 'border-transparent text-gray-300 hover:text-white hover:border-gray-300'
             }`}
           >
-            Flash Cards
+            Farm
           </Link>
           <Link 
             to="/about" 
